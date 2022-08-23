@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baper Hotel</title>
+    <title>Login</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -15,14 +15,15 @@
         <section class=" bg-blue-400 w-9/12 mt-12 p-8 mx-auto ">
             <h2 class="font-bold mb-6 text-center">Please Login</h2>
             <div class="">
-                <input class="w-6/12 block mb-4 px-3 mx-auto text-center"   type="email" name="" id="" placeholder="Enter your Email">
-                <input class="w-6/12 block mb-4 px-3 mx-auto text-center" type="password" name="" id="" placeholder="Enter Your password">
+                <input id="email_user" class="w-6/12 block mb-4 px-3 mx-auto text-center"   type="email" name="" id="" placeholder="Enter your Email">
+                <input id="email_pass" class="w-6/12 block mb-4 px-3 mx-auto text-center" type="password" name="" id="" placeholder="Enter Your password">
                 <div class="flex justify-center mt-8">
-                    <button class="bg-amber-300 px-3 py-2 rounded-md hover:bg-orange-700">Submit</button>
+                    <button id="btn-login" class="bg-amber-300 px-3 py-2 rounded-md hover:bg-orange-700">Submit</button>
                 </div>
             </div>
         </section>
     </main>
+    <script src="js/login.js"></script>
     
 </body>
 </html>
